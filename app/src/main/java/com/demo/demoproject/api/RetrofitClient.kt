@@ -6,8 +6,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 object RetrofitClient {
     val apiService: ApiService by lazy {
         Retrofit.Builder()
-            .baseUrl("https://jsonplaceholder.typicode.com/")
-            .addConverterFactory(GsonConverterFactory.create()) // <-- Add this
+            .baseUrl("https://cdb0-49-207-195-192.ngrok-free.app")
+            .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(ApiService::class.java)
     }

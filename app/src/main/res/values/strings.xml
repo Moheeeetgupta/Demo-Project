@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DemoProject</string>
+    <string name="type_any_movie_name">Type any movie name...</string>
+    <string name="language">Language</string>
+    <string name="favorite">Favorites</string>
+    <string name="vote_average">Vote Average</string>
+    <string name="apply">Apply</string>
 </resources>
